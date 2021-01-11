@@ -1,0 +1,16 @@
+{
+    "name":"PaninApp",
+    "short_name":"PaninApp",
+    "start_url":"/index.html",
+    "display":"standalone",
+    "background_color":"#ffb300",
+    "theme_color":"#ffb300",
+    "orientation":"portrait-primary",
+    "icons":[
+        {
+            "src":"./img/Panin.png",
+            "type":"image/png",
+            "sizes": "144x144"
+
+         }]
+}

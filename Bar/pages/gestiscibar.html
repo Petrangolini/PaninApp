@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="../js/anim.js"></script>
+  <script src="../js/materialize.min.js"></script>
+
+  <script src="../sw.js"></script>
+  <script src="../js/app.js"></script>
+
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="../css/gestionebar.css">
+
+  <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/-->
+
+  <link rel="stylesheet" href="../css/animate.css"/>
+  <link rel="manifest" href="../manifest.json">
+  <meta name="theme-color" content="#ffb300">
+
+
+  <meta name="google-signin-client_id" content="407647442319-4j95kdqt64ret65tosr6mqvq69m3a2n2.apps.googleusercontent.com">
+
+    <!--IOS suppport-->
+    <link rel="apple-touch-icon" href="../img/Panin.png">
+    <meta name="apple-mobile-web-app-status-bar" content="#ffb300">
+
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+    <title>Sign In</title>
+</head>
+<body class="">
+
+  <nav class="orange">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Panin App</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li class="active"><a href="sass.html">Prodotti</a></li>
+        <li><a href="">Ordini</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1 id="nomebar" class="orange-text">Da Vinci</h1>
+
+    <ul class="collection" id ="collection" >
+       
+        <li class="collection-item avatar">
+          <i class="material-icons circle">folder</i>
+          <span class="title">Title</span>
+          <p>First Line <br>
+             Second Line
+          </p>
+          <a href="#!" class="secondary-content" onclick="salva()"><i class="material-icons">grade</i></a>
+        </li>
+       
+      </ul>
+      
+      <div class="fixed-action-btn">
+          <a class="btn-floating btn-large waves-effect waves-light orange" onclick="salva()"><i class="material-icons">send</i></a>
+      </div>
+    
+    </div>
+    <script>
+      let menu=[];
+
+      window.addEventListener('DOMContentLoaded', ()=>{
+
+        var elems = document.querySelectorAll('.fixed-action-btn');
+      var instances = M.FloatingActionButton.init(elems, {});
+
+        dammiProdotti("Da Vinci");
+        
+      })
+
+
+      function dammiProdotti(nomebar){
+            menu=[];
+        
+      
+
+            fetch('/dammiprodotti',{
+                method:'POST',
+                body:JSON.stringify({bar:nomebar}),
+                headers: {
+                        'Content-Type': 'application/json'
+                    }}).then(data=>data.json())
+                            .then(jsondata=>{
+                                console.log(jsondata);
+                                menu=jsondata;
+                                disegnaMenu(jsondata);
+                            })
+
+        }
+
+      function disegnaMenu(dati){
+        dati.sort((a,b)=>{
+                              if (a.tipo=="cibo" && b.tipo=="bevanda") { return -1; }
+                              if (b.tipo=="cibo" && a.tipo=="bevanda") { return +1; }
+                                  
+                              if(a.nome < b.nome) { return -1; }
+                              if(a.nome > b.nome) { return +1; }
+                              return 0;
+                            });
+
+            collection.innerHTML="";
+            for (let ele of dati){
+
+                let tagHTML=`
+                <li class="collection-item">
+                <div class="row" style="margin-bottom:0px;">
+                <div class="col s6">
+
+              <p onclick="aggiungi(this)" id="${ele._id}">
+                <span class="title">${ele.nome}</span>
+                <br>Prezzo : ${ele.prezzo.toFixed(2)}
+                <br>Venduti : ${ele.venduti}
+
+              </p>
+              </div>
+              <div class="col s6">
+
+              <div class="row" style="margin-bottom:0px;">
+                  <div class="col s12" style="margin-bottom:0px;">
+                    <div class="row" style="margin-bottom:0px;">
+                      <div class="input-field col s12">
+                        <i class="material-icons prefix">local_dining</i>
+                        <input type="text" id="input_${ele._id}" data-id="${ele._id}" class="autocomplete" value="${ele.disponibilita}">
+                        <label for="input_${ele._id}">Disponibilita</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+
+
+            </li>`;
+
+            collection.insertAdjacentHTML('beforeend', tagHTML);
+            }
+
+        }
+        function salva(){
+
+          let inputs=document.querySelectorAll('input');
+          for (let i of inputs){
+            let id=i.getAttribute('data-id');
+            menu.map((ele)=>{
+              if (ele._id==id){
+                ele.disponibilita=i.value;
+              }
+            })
+          } 
+          
+
+          fetch('/salvamenu',{
+                method:'POST',
+                body:JSON.stringify(menu),
+                headers: {
+                        'Content-Type': 'application/json'
+                    }}).then(data=>data.json())
+                            .then(jsondata=>{
+                                console.log(jsondata);
+                                menu=jsondata;
+                                disegnaMenu(jsondata);
+                            })
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+.cancella{
+    position: absolute;
+    bottom:16px;
+    right: 16px;
+}
+.mybadge{
+    border-radius: 10px;
+}
+
+.centro{
+    min-height: 90vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: top center;
+    align-items: center;
+}

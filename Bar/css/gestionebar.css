@@ -1,0 +1,12 @@
+body{
+    max-height: 100vh !important;
+}
+.cancella{
+    position: absolute;
+    bottom:16px;
+    right: 16px;
+}
+
+.mybadge{
+    border-radius: 10px;
+}

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="../js/anim.js"></script>
+  <script src="../js/materialize.min.js"></script>
+
+  <script src="../sw.js"></script>
+  <script src="../js/app.js"></script>
+
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="../css/gestisciordini.css">
+
+  <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/-->
+
+  <link rel="stylesheet" href="../css/animate.css"/>
+  <link rel="manifest" href="../manifest.json">
+  <meta name="theme-color" content="#ffb300">
+
+
+  <meta name="google-signin-client_id" content="407647442319-4j95kdqt64ret65tosr6mqvq69m3a2n2.apps.googleusercontent.com">
+
+    <!--IOS suppport-->
+    <link rel="apple-touch-icon" href="../img/Panin.png">
+    <meta name="apple-mobile-web-app-status-bar" content="#ffb300">
+
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+    <title>Sign In</title>
+</head>
+<body class="">
+
+  <nav class="orange">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Panin App</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li class="active"><a href="sass.html">Prodotti</a></li>
+        <li><a href="">Ordini</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container" id="container">
+    
+    <h1 id="nomebar" class="orange-text">Da Vinci</h1>
+
+    <div class="row center" id="displayordini">
+
+         </div>
+ </div>
+
+
+
+<!--Ordine specifico-->
+<div class="container" id="ospecifico"  style="display:none;">
+    <h3 id="classeordine" class="orange-text">Da Vinci</h3>
+
+    <ul class="collection" id="ordine">
+       
+      </ul>
+      <a class="waves-effect waves-light btn-large orange" href="#!" style="width:100%; margin-bottom: 20px;" onclick="completaordine()" >Completa Ordine</a>
+      <a class="waves-effect waves-light btn-large orange orange lighten-2" href="#!" style="width:100%" onclick="tornaindietro()">Torna Indietro</a>
+
+ </div>
+
+    <script>
+      let ordini=[];
+      let sezioneglob;
+      let classeglob;
+      let nomebartxt=nomebar.innerHTML;
+
+      window.addEventListener('DOMContentLoaded', ()=>{
+        
+
+        var tbody=document.querySelector('tbody');
+
+
+
+        dammiOrdini("Da Vinci");
+        
+      })
+
+
+      function dammiOrdini(nomebar){
+            ordini=[];
+        
+      
+
+            fetch('/dammiordini',{
+                method:'POST',
+                body:JSON.stringify({bar:nomebar}),
+                headers: {
+                        'Content-Type': 'application/json'
+                    }}).then(data=>data.json())
+                            .then(jsondata=>{
+                                console.log(jsondata);
+                                ordini=jsondata;
+                                gestisciordini(ordini);
+
+                            })
+        }
+
+        function gestisciordini(arr){
+            if (arr.length==0) return;
+            
+            //prima le ordino
+            arr.sort((a,b)=>{return a.utente.classe-b.utente.classe || b.utente.sezione-a.utente.sezione })
+            
+            
+            let classeSezione={};
+
+            for(let el of arr){
+                let classe=el.utente.classe;
+                let sezione=el.utente.sezione;
+                let nome=classe+sezione;
+                let quantiordini=0;
+
+                for (let or of el.ordine){
+                    quantiordini+=or.quantita;
+                }
+                classeSezione[nome]=quantiordini;
+            }
+
+            displayordini.innerHTML="";
+
+            for (const [key, value] of Object.entries(classeSezione)) {
+                tagHTML=`
+                <button class="waves-effect waves-light btn col s3" style="margin: 2px 5px" onclick="ordinespecifico('${key}',event)"><span class="badge mybadge red white-text">${value}</span>${key}</button>
+                `;
+                displayordini.insertAdjacentHTML('beforeend', tagHTML);
+
+            }
+ 
+
+        }
+      function ordinespecifico(nome,event){
+        
+        classeglob=nome[0];
+        sezioneglob=nome[1];
+         
+        let classe=nome[0];
+        let sezione=nome[1];
+
+        let mieiordini=ordini.filter((ele)=>{return ele.utente.classe==classe && ele.utente.sezione==sezione})
+        console.log(mieiordini);
+
+        
+        let tuttiordini=[];
+        for (let m of mieiordini){
+            console.log(m);
+            tuttiordini=tuttiordini.concat(m.ordine);
+        }
+        console.log(tuttiordini);
+        tuttiordini.sort((ele)=>ele._id);
+
+        let arr=[];
+        for (let prod of tuttiordini){
+            let lastindex=arr.length-1;
+
+            if (lastindex>=0){
+                if (prod._id==arr[lastindex]._id){
+                    arr[lastindex].quantita+=prod.quantita;
+                }else{
+                    arr.push(prod);
+                }
+            }else{
+                arr.push(prod);
+
+            }
+
+        }
+        console.log(arr);
+
+        ordine.innerHTML="";
+        arr.forEach((eleProd,ind)=>{
+            tagHTML=`
+            <li class="collection-item">${eleProd.nome}<span class="badge">${eleProd.quantita}</span></li>
+
+                `;
+                ordine.insertAdjacentHTML('beforeend', tagHTML);
+
+        })
+
+        classeordine.innerHTML=nome;
+        container.style.display="none";
+        ospecifico.style.display="block";
+
+
+      }
+      function tornaindietro(){
+        container.style.display="block";
+        ospecifico.style.display="none";
+        classeglob="";
+        sezioneglob="";
+
+      }
+
+      function completaordine(){
+        let listid=ordini.filter((ele)=>{return ele.utente.classe==classeglob && ele.utente.sezione==sezioneglob})
+
+        console.log(listid);
+
+        fetch('/completaordine',{
+                method:'POST',
+                body:JSON.stringify({classe:classeglob, sezione:sezioneglob, listid:listid}),
+                headers: {
+                        'Content-Type': 'application/json'
+                    }}).then(data=>data.json())
+                            .then(jsondata=>{
+                                console.log(jsondata);
+
+                               
+                            })
+      }
+    </script>
+
+</body>
+</html>
