@@ -2,6 +2,8 @@ const express = require('express');
 const push=require('web-push');
 const bodyParser=require('body-parser');
 const path=require('path');
+const keepalive = require('express-glitch-keepalive');
+
 var Datastore = require('nedb');
 
 
@@ -39,6 +41,7 @@ const app=express();
 
 app.use(express.static(path.join(__dirname,"Bar")));
 app.use(bodyParser.json());
+app.use(keepalive);
 
 
 let vapidkeys={
