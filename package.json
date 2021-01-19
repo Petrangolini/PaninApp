@@ -16,7 +16,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "express-glitch-keepalive": "^0.2.0",
     "nedb": "^1.8.0",
     "vash": "^0.13.0",
     "web-push": "^3.4.4"
