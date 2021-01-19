@@ -1,140 +1,112 @@
-{"bar":"Da Vinci","nome":"Focaccia Cotto","tipo":"cibo","prezzo":1.7,"disponibilita":"10","venduti":0,"giorno":1610314293097,"_id":"0TAgU7MNTgCx0S4I"}
-{"bar":"Belluzzi","nome":"Hot-Dog","tipo":"cibo","prezzo":1.7,"disponibilita":3,"venduti":0,"giorno":0,"_id":"0e8dFbvrAZvc0xUE"}
-{"bar":"Belluzzi","nome":"Tè Limone","tipo":"bevanda","prezzo":1.1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"1bG6uTJ7MqnqIdg9"}
-{"bar":"Da Vinci","nome":"Hot-Dog","tipo":"cibo","prezzo":1.7,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"2X9CYXx4XGuxhZhi"}
-{"bar":"Belluzzi","nome":"Focaccia Crudo","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"3LIWfjw93lGmdnsy"}
-{"bar":"Da Vinci","nome":"Focaccia","tipo":"cibo","prezzo":1,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"3uqiLCg0ScPR3DHs"}
-{"bar":"Belluzzi","nome":"Rotolo Salsiccia","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"6FIl7rVGHDzdy5X9"}
-{"bar":"Belluzzi","nome":"Focaccia Mortadella","tipo":"cibo","prezzo":1.7,"disponibilita":3,"venduti":0,"giorno":0,"_id":"6FNWgzlylKomKda9"}
-{"bar":"Belluzzi","nome":"Toast","tipo":"cibo","prezzo":1.1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"7LCweQZO3fLCUPv5"}
-{"bar":"Da Vinci","nome":"Chinotto","tipo":"bevanda","prezzo":1.1,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"7hpJSfv0J0Z1paWj"}
-{"bar":"Belluzzi","nome":"Panino Cotoletta","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"Bn8nwxXejX4MfVv2"}
-{"bar":"Da Vinci","nome":"Focaccia Mortadella","tipo":"cibo","prezzo":1.7,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"DHqKDKmHxnKLvwRn"}
-{"bar":"Belluzzi","nome":"Acqua Frizzante 0,5l","tipo":"bevanda","prezzo":0.45,"disponibilita":3,"venduti":0,"giorno":0,"_id":"DqqwuXf2cezBViwH"}
-{"bar":"Da Vinci","nome":"Panino Salame","tipo":"cibo","prezzo":1.4,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"EYSSO8JMSGkp4QVF"}
-{"bar":"Da Vinci","nome":"Tè Limone","tipo":"bevanda","prezzo":1.1,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"FepTqEmoyyWHIwXZ"}
-{"bar":"Belluzzi","nome":"Tostone Cotto e Formaggio","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"FwNfI4ngQ0RnzBRO"}
-{"bar":"Belluzzi","nome":"Chinotto","tipo":"bevanda","prezzo":1.1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"HexX0QIA3Sf7nmt6"}
-{"bar":"Da Vinci","nome":"Focaccia Salame","tipo":"cibo","prezzo":1.7,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"Hf2LYhGaHPPIKqvk"}
-{"bar":"Belluzzi","nome":"Focaccia Salame","tipo":"cibo","prezzo":1.7,"disponibilita":3,"venduti":0,"giorno":0,"_id":"KwZzQUB0PkYyDkgv"}
-{"bar":"Da Vinci","nome":"Focaccia Crudo e Formaggio","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"MwkOUFxv7ujRQG87"}
-{"bar":"Da Vinci","nome":"Acqua Frizzante 0,5l","tipo":"bevanda","prezzo":0.45,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"OdlUuv4E8O4IUROx"}
-{"bar":"Belluzzi","nome":"Pizza Marherita","tipo":"cibo","prezzo":1.3,"disponibilita":3,"venduti":0,"giorno":0,"_id":"OqlSXZ4fEOWdS3PO"}
-{"bar":"Da Vinci","nome":"Aranciata","tipo":"bevanda","prezzo":1.1,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"PBgc5wwCkLSdsXlw"}
-{"bar":"Belluzzi","nome":"Panino Salame","tipo":"cibo","prezzo":1.4,"disponibilita":3,"venduti":0,"giorno":0,"_id":"RiIiJcNc4N24SzZG"}
-{"bar":"Belluzzi","nome":"Panino Cotto","tipo":"cibo","prezzo":1.4,"disponibilita":3,"venduti":0,"giorno":0,"_id":"RkQ6CeUhl6He78NK"}
-{"bar":"Da Vinci","nome":"Ciabatta Crudo e Mozzarella","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"S0DP4YtrSR67T9RE"}
-{"bar":"Belluzzi","nome":"Focaccia Crudo e Formaggio","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"S3WB6vLtVT9XDdbT"}
-{"bar":"Da Vinci","nome":"Acqua Naturale 0,5l","tipo":"bevanda","prezzo":0.45,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"U7KhvsZi0OPimfnn"}
-{"bar":"Da Vinci","nome":"Rotolo Wurstel","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"UdxbgkwcrAFtsYPf"}
-{"bar":"Da Vinci","nome":"Lemon Soda","tipo":"bevanda","prezzo":1.1,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"Ut4HtSgoZwY7fRWb"}
-{"bar":"Da Vinci","nome":"Focaccia Crudo","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"WAYsh9geAoYKUdEG"}
-{"bar":"Da Vinci","nome":"Coca Cola 0,5l","tipo":"bevanda","prezzo":1.8,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"Wfxp2pZyAQIb3Le9"}
-{"bar":"Da Vinci","nome":"Coca Cola","tipo":"bevanda","prezzo":1.1,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"WjoylfyLFyTWN4Hl"}
-{"bar":"Belluzzi","nome":"Coca Cola 0,5l","tipo":"bevanda","prezzo":1.8,"disponibilita":3,"venduti":0,"giorno":0,"_id":"YzibPQ9e1Q3YoGps"}
-{"bar":"Belluzzi","nome":"Acqua Naturale 0,5l","tipo":"bevanda","prezzo":0.45,"disponibilita":3,"venduti":0,"giorno":0,"_id":"aJejVrFvvCo1qh57"}
-{"bar":"Belluzzi","nome":"Coca Cola","tipo":"bevanda","prezzo":1.1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"aLF303fACYylXmq9"}
-{"bar":"Belluzzi","nome":"Ciabatta Crudo e Mozzarella","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"abCmFZkgxlVMjYh2"}
-{"bar":"Da Vinci","nome":"Tè Pesca","tipo":"bevanda","prezzo":1.1,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"abrT9hnKSfL1iLtA"}
-{"bar":"Belluzzi","nome":"Focaccia","tipo":"cibo","prezzo":1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"alnSWFyu6uxfvEnK"}
-{"bar":"Da Vinci","nome":"Focaccia Salame e Formaggio","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"fjLUkZEpaWGjVePF"}
-{"bar":"Da Vinci","nome":"Rotolo Salsiccia","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"gLH9znjzp1KduszI"}
-{"bar":"Da Vinci","nome":"Pizza Marherita","tipo":"cibo","prezzo":1.3,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"hnCN3uVRzgHO0wg0"}
-{"bar":"Belluzzi","nome":"Rotolo Wurstel","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"kMPKZZt480qo04Zl"}
-{"bar":"Belluzzi","nome":"Focaccia Salame e Formaggio","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"lDDEGDDS9qwj1EH9"}
-{"bar":"Belluzzi","nome":"Panino Crudo","tipo":"cibo","prezzo":1.6,"disponibilita":3,"venduti":0,"giorno":0,"_id":"lftzVf3M1S0mhu0g"}
-{"bar":"Da Vinci","nome":"Panino Cotto","tipo":"cibo","prezzo":1.4,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"o0a5uN6SF1owUJcm"}
-{"bar":"Da Vinci","nome":"Panino Crudo","tipo":"cibo","prezzo":1.6,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"pu9iLg1PcHs0B4cV"}
-{"bar":"Da Vinci","nome":"Toast","tipo":"cibo","prezzo":1.1,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"qLYjcMQ60HzJyCaU"}
-{"bar":"Da Vinci","nome":"Panino Cotoletta","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"qY1Q8U5xi7GDN6OZ"}
-{"bar":"Belluzzi","nome":"Focaccia Cotto","tipo":"cibo","prezzo":1.7,"disponibilita":3,"venduti":0,"giorno":0,"_id":"qm2n9hPWZlf4HGmN"}
-{"bar":"Da Vinci","nome":"Tostone Cotto e Formaggio","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"qwUJUQ6XEZUoV3Hs"}
-{"bar":"Belluzzi","nome":"Aranciata","tipo":"bevanda","prezzo":1.1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"sLsNrwCC1TSCYzCD"}
-{"bar":"Belluzzi","nome":"Panino Mortadella","tipo":"cibo","prezzo":1.4,"disponibilita":3,"venduti":0,"giorno":0,"_id":"u8a1yb9slElYIjDw"}
-{"bar":"Belluzzi","nome":"Lemon Soda","tipo":"bevanda","prezzo":1.1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"uKAggFKAGppYzYOz"}
-{"bar":"Belluzzi","nome":"Tè Pesca","tipo":"bevanda","prezzo":1.1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"wxYtfXCFOWUAY29n"}
-{"bar":"Da Vinci","nome":"Panino Mortadella","tipo":"cibo","prezzo":1.4,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"z4WfqfWKqnzGwHCA"}
-{"bar":"Da Vinci","nome":"Focaccia Cotto","tipo":"cibo","prezzo":1.7,"disponibilita":"10","venduti":0,"giorno":1610314293097,"_id":"0TAgU7MNTgCx0S4I"}
-{"bar":"Da Vinci","nome":"Hot-Dog","tipo":"cibo","prezzo":1.7,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"2X9CYXx4XGuxhZhi"}
-{"bar":"Da Vinci","nome":"Focaccia","tipo":"cibo","prezzo":1,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"3uqiLCg0ScPR3DHs"}
-{"bar":"Da Vinci","nome":"Chinotto","tipo":"bevanda","prezzo":1.1,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"7hpJSfv0J0Z1paWj"}
-{"bar":"Da Vinci","nome":"Focaccia Mortadella","tipo":"cibo","prezzo":1.7,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"DHqKDKmHxnKLvwRn"}
-{"bar":"Da Vinci","nome":"Panino Salame","tipo":"cibo","prezzo":1.4,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"EYSSO8JMSGkp4QVF"}
-{"bar":"Da Vinci","nome":"Tè Limone","tipo":"bevanda","prezzo":1.1,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"FepTqEmoyyWHIwXZ"}
-{"bar":"Da Vinci","nome":"Focaccia Salame","tipo":"cibo","prezzo":1.7,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"Hf2LYhGaHPPIKqvk"}
-{"bar":"Da Vinci","nome":"Focaccia Crudo e Formaggio","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"MwkOUFxv7ujRQG87"}
-{"bar":"Da Vinci","nome":"Acqua Frizzante 0,5l","tipo":"bevanda","prezzo":0.45,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"OdlUuv4E8O4IUROx"}
-{"bar":"Da Vinci","nome":"Aranciata","tipo":"bevanda","prezzo":1.1,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"PBgc5wwCkLSdsXlw"}
-{"bar":"Da Vinci","nome":"Ciabatta Crudo e Mozzarella","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"S0DP4YtrSR67T9RE"}
-{"bar":"Da Vinci","nome":"Acqua Naturale 0,5l","tipo":"bevanda","prezzo":0.45,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"U7KhvsZi0OPimfnn"}
-{"bar":"Da Vinci","nome":"Rotolo Wurstel","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"UdxbgkwcrAFtsYPf"}
-{"bar":"Da Vinci","nome":"Lemon Soda","tipo":"bevanda","prezzo":1.1,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"Ut4HtSgoZwY7fRWb"}
-{"bar":"Da Vinci","nome":"Focaccia Crudo","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"WAYsh9geAoYKUdEG"}
-{"bar":"Da Vinci","nome":"Coca Cola 0,5l","tipo":"bevanda","prezzo":1.8,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"Wfxp2pZyAQIb3Le9"}
-{"bar":"Da Vinci","nome":"Coca Cola","tipo":"bevanda","prezzo":1.1,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"WjoylfyLFyTWN4Hl"}
-{"bar":"Da Vinci","nome":"Tè Pesca","tipo":"bevanda","prezzo":1.1,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"abrT9hnKSfL1iLtA"}
-{"bar":"Da Vinci","nome":"Focaccia Salame e Formaggio","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"fjLUkZEpaWGjVePF"}
-{"bar":"Da Vinci","nome":"Rotolo Salsiccia","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"gLH9znjzp1KduszI"}
-{"bar":"Da Vinci","nome":"Pizza Marherita","tipo":"cibo","prezzo":1.3,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"hnCN3uVRzgHO0wg0"}
-{"bar":"Da Vinci","nome":"Panino Cotto","tipo":"cibo","prezzo":1.4,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"o0a5uN6SF1owUJcm"}
-{"bar":"Da Vinci","nome":"Panino Crudo","tipo":"cibo","prezzo":1.6,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"pu9iLg1PcHs0B4cV"}
-{"bar":"Da Vinci","nome":"Toast","tipo":"cibo","prezzo":1.1,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"qLYjcMQ60HzJyCaU"}
-{"bar":"Da Vinci","nome":"Panino Cotoletta","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"qY1Q8U5xi7GDN6OZ"}
-{"bar":"Da Vinci","nome":"Tostone Cotto e Formaggio","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"qwUJUQ6XEZUoV3Hs"}
-{"bar":"Da Vinci","nome":"Panino Mortadella","tipo":"cibo","prezzo":1.4,"disponibilita":"3","venduti":0,"giorno":1610314293097,"_id":"z4WfqfWKqnzGwHCA"}
-{"bar":"Belluzzi","nome":"Hot-Dog","tipo":"cibo","prezzo":1.7,"disponibilita":3,"venduti":0,"giorno":0,"_id":"0e8dFbvrAZvc0xUE"}
-{"bar":"Belluzzi","nome":"Tè Limone","tipo":"bevanda","prezzo":1.1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"1bG6uTJ7MqnqIdg9"}
-{"bar":"Belluzzi","nome":"Focaccia Crudo","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"3LIWfjw93lGmdnsy"}
-{"bar":"Belluzzi","nome":"Rotolo Salsiccia","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"6FIl7rVGHDzdy5X9"}
-{"bar":"Belluzzi","nome":"Focaccia Mortadella","tipo":"cibo","prezzo":1.7,"disponibilita":3,"venduti":0,"giorno":0,"_id":"6FNWgzlylKomKda9"}
-{"bar":"Belluzzi","nome":"Toast","tipo":"cibo","prezzo":1.1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"7LCweQZO3fLCUPv5"}
-{"bar":"Belluzzi","nome":"Panino Cotoletta","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"Bn8nwxXejX4MfVv2"}
-{"bar":"Belluzzi","nome":"Acqua Frizzante 0,5l","tipo":"bevanda","prezzo":0.45,"disponibilita":3,"venduti":0,"giorno":0,"_id":"DqqwuXf2cezBViwH"}
-{"bar":"Belluzzi","nome":"Tostone Cotto e Formaggio","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"FwNfI4ngQ0RnzBRO"}
-{"bar":"Belluzzi","nome":"Chinotto","tipo":"bevanda","prezzo":1.1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"HexX0QIA3Sf7nmt6"}
-{"bar":"Belluzzi","nome":"Focaccia Salame","tipo":"cibo","prezzo":1.7,"disponibilita":3,"venduti":0,"giorno":0,"_id":"KwZzQUB0PkYyDkgv"}
-{"bar":"Belluzzi","nome":"Pizza Marherita","tipo":"cibo","prezzo":1.3,"disponibilita":3,"venduti":0,"giorno":0,"_id":"OqlSXZ4fEOWdS3PO"}
-{"bar":"Belluzzi","nome":"Panino Salame","tipo":"cibo","prezzo":1.4,"disponibilita":3,"venduti":0,"giorno":0,"_id":"RiIiJcNc4N24SzZG"}
-{"bar":"Belluzzi","nome":"Panino Cotto","tipo":"cibo","prezzo":1.4,"disponibilita":3,"venduti":0,"giorno":0,"_id":"RkQ6CeUhl6He78NK"}
-{"bar":"Belluzzi","nome":"Focaccia Crudo e Formaggio","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"S3WB6vLtVT9XDdbT"}
-{"bar":"Belluzzi","nome":"Coca Cola 0,5l","tipo":"bevanda","prezzo":1.8,"disponibilita":3,"venduti":0,"giorno":0,"_id":"YzibPQ9e1Q3YoGps"}
-{"bar":"Belluzzi","nome":"Acqua Naturale 0,5l","tipo":"bevanda","prezzo":0.45,"disponibilita":3,"venduti":0,"giorno":0,"_id":"aJejVrFvvCo1qh57"}
-{"bar":"Belluzzi","nome":"Coca Cola","tipo":"bevanda","prezzo":1.1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"aLF303fACYylXmq9"}
-{"bar":"Belluzzi","nome":"Ciabatta Crudo e Mozzarella","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"abCmFZkgxlVMjYh2"}
-{"bar":"Belluzzi","nome":"Focaccia","tipo":"cibo","prezzo":1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"alnSWFyu6uxfvEnK"}
-{"bar":"Belluzzi","nome":"Rotolo Wurstel","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"kMPKZZt480qo04Zl"}
-{"bar":"Belluzzi","nome":"Focaccia Salame e Formaggio","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"lDDEGDDS9qwj1EH9"}
-{"bar":"Belluzzi","nome":"Panino Crudo","tipo":"cibo","prezzo":1.6,"disponibilita":3,"venduti":0,"giorno":0,"_id":"lftzVf3M1S0mhu0g"}
-{"bar":"Belluzzi","nome":"Focaccia Cotto","tipo":"cibo","prezzo":1.7,"disponibilita":3,"venduti":0,"giorno":0,"_id":"qm2n9hPWZlf4HGmN"}
-{"bar":"Belluzzi","nome":"Aranciata","tipo":"bevanda","prezzo":1.1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"sLsNrwCC1TSCYzCD"}
-{"bar":"Belluzzi","nome":"Panino Mortadella","tipo":"cibo","prezzo":1.4,"disponibilita":3,"venduti":0,"giorno":0,"_id":"u8a1yb9slElYIjDw"}
-{"bar":"Belluzzi","nome":"Lemon Soda","tipo":"bevanda","prezzo":1.1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"uKAggFKAGppYzYOz"}
-{"bar":"Belluzzi","nome":"Tè Pesca","tipo":"bevanda","prezzo":1.1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"wxYtfXCFOWUAY29n"}
-{"bar":"Da Vinci","nome":"Ciabatta Crudo e Mozzarella","tipo":"cibo","prezzo":2,"disponibilita":"10","venduti":0,"giorno":1610361655536,"_id":"S0DP4YtrSR67T9RE"}
-{"bar":"Da Vinci","nome":"Focaccia","tipo":"cibo","prezzo":1,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"3uqiLCg0ScPR3DHs"}
 {"bar":"Da Vinci","nome":"Focaccia Cotto","tipo":"cibo","prezzo":1.7,"disponibilita":"10","venduti":0,"giorno":1610361655536,"_id":"0TAgU7MNTgCx0S4I"}
-{"bar":"Da Vinci","nome":"Focaccia Crudo","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"WAYsh9geAoYKUdEG"}
-{"bar":"Da Vinci","nome":"Focaccia Crudo e Formaggio","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"MwkOUFxv7ujRQG87"}
-{"bar":"Da Vinci","nome":"Focaccia Mortadella","tipo":"cibo","prezzo":1.7,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"DHqKDKmHxnKLvwRn"}
-{"bar":"Da Vinci","nome":"Focaccia Salame","tipo":"cibo","prezzo":1.7,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"Hf2LYhGaHPPIKqvk"}
-{"bar":"Da Vinci","nome":"Focaccia Salame e Formaggio","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"fjLUkZEpaWGjVePF"}
+{"bar":"Belluzzi","nome":"Hot-Dog","tipo":"cibo","prezzo":1.7,"disponibilita":3,"venduti":0,"giorno":0,"_id":"0e8dFbvrAZvc0xUE"}
+{"bar":"Belluzzi","nome":"Tè Limone","tipo":"bevanda","prezzo":1.1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"1bG6uTJ7MqnqIdg9"}
 {"bar":"Da Vinci","nome":"Hot-Dog","tipo":"cibo","prezzo":1.7,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"2X9CYXx4XGuxhZhi"}
-{"bar":"Da Vinci","nome":"Panino Cotoletta","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"qY1Q8U5xi7GDN6OZ"}
+{"bar":"Belluzzi","nome":"Focaccia Crudo","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"3LIWfjw93lGmdnsy"}
+{"bar":"Da Vinci","nome":"Focaccia","tipo":"cibo","prezzo":1,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"3uqiLCg0ScPR3DHs"}
+{"bar":"Belluzzi","nome":"Rotolo Salsiccia","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"6FIl7rVGHDzdy5X9"}
+{"bar":"Belluzzi","nome":"Focaccia Mortadella","tipo":"cibo","prezzo":1.7,"disponibilita":3,"venduti":0,"giorno":0,"_id":"6FNWgzlylKomKda9"}
+{"bar":"Belluzzi","nome":"Toast","tipo":"cibo","prezzo":1.1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"7LCweQZO3fLCUPv5"}
+{"bar":"Da Vinci","nome":"Chinotto","tipo":"bevanda","prezzo":1.1,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"7hpJSfv0J0Z1paWj"}
+{"bar":"Belluzzi","nome":"Panino Cotoletta","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"Bn8nwxXejX4MfVv2"}
+{"bar":"Da Vinci","nome":"Focaccia Mortadella","tipo":"cibo","prezzo":1.7,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"DHqKDKmHxnKLvwRn"}
+{"bar":"Belluzzi","nome":"Acqua Frizzante 0,5l","tipo":"bevanda","prezzo":0.45,"disponibilita":3,"venduti":0,"giorno":0,"_id":"DqqwuXf2cezBViwH"}
+{"bar":"Da Vinci","nome":"Panino Salame","tipo":"cibo","prezzo":1.4,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"EYSSO8JMSGkp4QVF"}
+{"bar":"Da Vinci","nome":"Tè Limone","tipo":"bevanda","prezzo":1.1,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"FepTqEmoyyWHIwXZ"}
+{"bar":"Belluzzi","nome":"Tostone Cotto e Formaggio","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"FwNfI4ngQ0RnzBRO"}
+{"bar":"Belluzzi","nome":"Chinotto","tipo":"bevanda","prezzo":1.1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"HexX0QIA3Sf7nmt6"}
+{"bar":"Da Vinci","nome":"Focaccia Salame","tipo":"cibo","prezzo":1.7,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"Hf2LYhGaHPPIKqvk"}
+{"bar":"Belluzzi","nome":"Focaccia Salame","tipo":"cibo","prezzo":1.7,"disponibilita":3,"venduti":0,"giorno":0,"_id":"KwZzQUB0PkYyDkgv"}
+{"bar":"Da Vinci","nome":"Focaccia Crudo e Formaggio","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"MwkOUFxv7ujRQG87"}
+{"bar":"Da Vinci","nome":"Acqua Frizzante 0,5l","tipo":"bevanda","prezzo":0.45,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"OdlUuv4E8O4IUROx"}
+{"bar":"Belluzzi","nome":"Pizza Marherita","tipo":"cibo","prezzo":1.3,"disponibilita":3,"venduti":0,"giorno":0,"_id":"OqlSXZ4fEOWdS3PO"}
+{"bar":"Da Vinci","nome":"Aranciata","tipo":"bevanda","prezzo":1.1,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"PBgc5wwCkLSdsXlw"}
+{"bar":"Belluzzi","nome":"Panino Salame","tipo":"cibo","prezzo":1.4,"disponibilita":3,"venduti":0,"giorno":0,"_id":"RiIiJcNc4N24SzZG"}
+{"bar":"Belluzzi","nome":"Panino Cotto","tipo":"cibo","prezzo":1.4,"disponibilita":3,"venduti":0,"giorno":0,"_id":"RkQ6CeUhl6He78NK"}
+{"bar":"Da Vinci","nome":"Ciabatta Crudo e Mozzarella","tipo":"cibo","prezzo":2,"disponibilita":"10","venduti":0,"giorno":1610361655536,"_id":"S0DP4YtrSR67T9RE"}
+{"bar":"Belluzzi","nome":"Focaccia Crudo e Formaggio","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"S3WB6vLtVT9XDdbT"}
+{"bar":"Da Vinci","nome":"Acqua Naturale 0,5l","tipo":"bevanda","prezzo":0.45,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"U7KhvsZi0OPimfnn"}
+{"bar":"Da Vinci","nome":"Rotolo Wurstel","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"UdxbgkwcrAFtsYPf"}
+{"bar":"Da Vinci","nome":"Lemon Soda","tipo":"bevanda","prezzo":1.1,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"Ut4HtSgoZwY7fRWb"}
+{"bar":"Da Vinci","nome":"Focaccia Crudo","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"WAYsh9geAoYKUdEG"}
+{"bar":"Da Vinci","nome":"Coca Cola 0,5l","tipo":"bevanda","prezzo":1.8,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"Wfxp2pZyAQIb3Le9"}
+{"bar":"Da Vinci","nome":"Coca Cola","tipo":"bevanda","prezzo":1.1,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"WjoylfyLFyTWN4Hl"}
+{"bar":"Belluzzi","nome":"Coca Cola 0,5l","tipo":"bevanda","prezzo":1.8,"disponibilita":3,"venduti":0,"giorno":0,"_id":"YzibPQ9e1Q3YoGps"}
+{"bar":"Belluzzi","nome":"Acqua Naturale 0,5l","tipo":"bevanda","prezzo":0.45,"disponibilita":3,"venduti":0,"giorno":0,"_id":"aJejVrFvvCo1qh57"}
+{"bar":"Belluzzi","nome":"Coca Cola","tipo":"bevanda","prezzo":1.1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"aLF303fACYylXmq9"}
+{"bar":"Belluzzi","nome":"Ciabatta Crudo e Mozzarella","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"abCmFZkgxlVMjYh2"}
+{"bar":"Da Vinci","nome":"Tè Pesca","tipo":"bevanda","prezzo":1.1,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"abrT9hnKSfL1iLtA"}
+{"bar":"Belluzzi","nome":"Focaccia","tipo":"cibo","prezzo":1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"alnSWFyu6uxfvEnK"}
+{"bar":"Da Vinci","nome":"Focaccia Salame e Formaggio","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"fjLUkZEpaWGjVePF"}
+{"bar":"Da Vinci","nome":"Rotolo Salsiccia","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"gLH9znjzp1KduszI"}
+{"bar":"Da Vinci","nome":"Pizza Marherita","tipo":"cibo","prezzo":1.3,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"hnCN3uVRzgHO0wg0"}
+{"bar":"Belluzzi","nome":"Rotolo Wurstel","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"kMPKZZt480qo04Zl"}
+{"bar":"Belluzzi","nome":"Focaccia Salame e Formaggio","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"lDDEGDDS9qwj1EH9"}
+{"bar":"Belluzzi","nome":"Panino Crudo","tipo":"cibo","prezzo":1.6,"disponibilita":3,"venduti":0,"giorno":0,"_id":"lftzVf3M1S0mhu0g"}
 {"bar":"Da Vinci","nome":"Panino Cotto","tipo":"cibo","prezzo":1.4,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"o0a5uN6SF1owUJcm"}
 {"bar":"Da Vinci","nome":"Panino Crudo","tipo":"cibo","prezzo":1.6,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"pu9iLg1PcHs0B4cV"}
-{"bar":"Da Vinci","nome":"Panino Mortadella","tipo":"cibo","prezzo":1.4,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"z4WfqfWKqnzGwHCA"}
-{"bar":"Da Vinci","nome":"Panino Salame","tipo":"cibo","prezzo":1.4,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"EYSSO8JMSGkp4QVF"}
-{"bar":"Da Vinci","nome":"Pizza Marherita","tipo":"cibo","prezzo":1.3,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"hnCN3uVRzgHO0wg0"}
-{"bar":"Da Vinci","nome":"Rotolo Salsiccia","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"gLH9znjzp1KduszI"}
-{"bar":"Da Vinci","nome":"Rotolo Wurstel","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"UdxbgkwcrAFtsYPf"}
 {"bar":"Da Vinci","nome":"Toast","tipo":"cibo","prezzo":1.1,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"qLYjcMQ60HzJyCaU"}
+{"bar":"Da Vinci","nome":"Panino Cotoletta","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"qY1Q8U5xi7GDN6OZ"}
+{"bar":"Belluzzi","nome":"Focaccia Cotto","tipo":"cibo","prezzo":1.7,"disponibilita":3,"venduti":0,"giorno":0,"_id":"qm2n9hPWZlf4HGmN"}
 {"bar":"Da Vinci","nome":"Tostone Cotto e Formaggio","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"qwUJUQ6XEZUoV3Hs"}
-{"bar":"Da Vinci","nome":"Acqua Frizzante 0,5l","tipo":"bevanda","prezzo":0.45,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"OdlUuv4E8O4IUROx"}
-{"bar":"Da Vinci","nome":"Acqua Naturale 0,5l","tipo":"bevanda","prezzo":0.45,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"U7KhvsZi0OPimfnn"}
-{"bar":"Da Vinci","nome":"Aranciata","tipo":"bevanda","prezzo":1.1,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"PBgc5wwCkLSdsXlw"}
+{"bar":"Belluzzi","nome":"Aranciata","tipo":"bevanda","prezzo":1.1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"sLsNrwCC1TSCYzCD"}
+{"bar":"Belluzzi","nome":"Panino Mortadella","tipo":"cibo","prezzo":1.4,"disponibilita":3,"venduti":0,"giorno":0,"_id":"u8a1yb9slElYIjDw"}
+{"bar":"Belluzzi","nome":"Lemon Soda","tipo":"bevanda","prezzo":1.1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"uKAggFKAGppYzYOz"}
+{"bar":"Belluzzi","nome":"Tè Pesca","tipo":"bevanda","prezzo":1.1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"wxYtfXCFOWUAY29n"}
+{"bar":"Da Vinci","nome":"Panino Mortadella","tipo":"cibo","prezzo":1.4,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"z4WfqfWKqnzGwHCA"}
+{"bar":"Da Vinci","nome":"Focaccia Cotto","tipo":"cibo","prezzo":1.7,"disponibilita":"10","venduti":0,"giorno":1610361655536,"_id":"0TAgU7MNTgCx0S4I"}
+{"bar":"Da Vinci","nome":"Hot-Dog","tipo":"cibo","prezzo":1.7,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"2X9CYXx4XGuxhZhi"}
+{"bar":"Da Vinci","nome":"Focaccia","tipo":"cibo","prezzo":1,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"3uqiLCg0ScPR3DHs"}
 {"bar":"Da Vinci","nome":"Chinotto","tipo":"bevanda","prezzo":1.1,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"7hpJSfv0J0Z1paWj"}
-{"bar":"Da Vinci","nome":"Coca Cola","tipo":"bevanda","prezzo":1.1,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"WjoylfyLFyTWN4Hl"}
-{"bar":"Da Vinci","nome":"Coca Cola 0,5l","tipo":"bevanda","prezzo":1.8,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"Wfxp2pZyAQIb3Le9"}
-{"bar":"Da Vinci","nome":"Lemon Soda","tipo":"bevanda","prezzo":1.1,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"Ut4HtSgoZwY7fRWb"}
+{"bar":"Da Vinci","nome":"Focaccia Mortadella","tipo":"cibo","prezzo":1.7,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"DHqKDKmHxnKLvwRn"}
+{"bar":"Da Vinci","nome":"Panino Salame","tipo":"cibo","prezzo":1.4,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"EYSSO8JMSGkp4QVF"}
 {"bar":"Da Vinci","nome":"Tè Limone","tipo":"bevanda","prezzo":1.1,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"FepTqEmoyyWHIwXZ"}
+{"bar":"Da Vinci","nome":"Focaccia Salame","tipo":"cibo","prezzo":1.7,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"Hf2LYhGaHPPIKqvk"}
+{"bar":"Da Vinci","nome":"Focaccia Crudo e Formaggio","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"MwkOUFxv7ujRQG87"}
+{"bar":"Da Vinci","nome":"Acqua Frizzante 0,5l","tipo":"bevanda","prezzo":0.45,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"OdlUuv4E8O4IUROx"}
+{"bar":"Da Vinci","nome":"Aranciata","tipo":"bevanda","prezzo":1.1,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"PBgc5wwCkLSdsXlw"}
+{"bar":"Da Vinci","nome":"Ciabatta Crudo e Mozzarella","tipo":"cibo","prezzo":2,"disponibilita":"10","venduti":0,"giorno":1610361655536,"_id":"S0DP4YtrSR67T9RE"}
+{"bar":"Da Vinci","nome":"Acqua Naturale 0,5l","tipo":"bevanda","prezzo":0.45,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"U7KhvsZi0OPimfnn"}
+{"bar":"Da Vinci","nome":"Rotolo Wurstel","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"UdxbgkwcrAFtsYPf"}
+{"bar":"Da Vinci","nome":"Lemon Soda","tipo":"bevanda","prezzo":1.1,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"Ut4HtSgoZwY7fRWb"}
+{"bar":"Da Vinci","nome":"Focaccia Crudo","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"WAYsh9geAoYKUdEG"}
+{"bar":"Da Vinci","nome":"Coca Cola 0,5l","tipo":"bevanda","prezzo":1.8,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"Wfxp2pZyAQIb3Le9"}
+{"bar":"Da Vinci","nome":"Coca Cola","tipo":"bevanda","prezzo":1.1,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"WjoylfyLFyTWN4Hl"}
 {"bar":"Da Vinci","nome":"Tè Pesca","tipo":"bevanda","prezzo":1.1,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"abrT9hnKSfL1iLtA"}
+{"bar":"Da Vinci","nome":"Focaccia Salame e Formaggio","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"fjLUkZEpaWGjVePF"}
+{"bar":"Da Vinci","nome":"Rotolo Salsiccia","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"gLH9znjzp1KduszI"}
+{"bar":"Da Vinci","nome":"Pizza Marherita","tipo":"cibo","prezzo":1.3,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"hnCN3uVRzgHO0wg0"}
+{"bar":"Da Vinci","nome":"Panino Cotto","tipo":"cibo","prezzo":1.4,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"o0a5uN6SF1owUJcm"}
+{"bar":"Da Vinci","nome":"Panino Crudo","tipo":"cibo","prezzo":1.6,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"pu9iLg1PcHs0B4cV"}
+{"bar":"Da Vinci","nome":"Toast","tipo":"cibo","prezzo":1.1,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"qLYjcMQ60HzJyCaU"}
+{"bar":"Da Vinci","nome":"Panino Cotoletta","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"qY1Q8U5xi7GDN6OZ"}
+{"bar":"Da Vinci","nome":"Tostone Cotto e Formaggio","tipo":"cibo","prezzo":2,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"qwUJUQ6XEZUoV3Hs"}
+{"bar":"Da Vinci","nome":"Panino Mortadella","tipo":"cibo","prezzo":1.4,"disponibilita":"3","venduti":0,"giorno":1610361655536,"_id":"z4WfqfWKqnzGwHCA"}
+{"bar":"Belluzzi","nome":"Hot-Dog","tipo":"cibo","prezzo":1.7,"disponibilita":3,"venduti":0,"giorno":0,"_id":"0e8dFbvrAZvc0xUE"}
+{"bar":"Belluzzi","nome":"Tè Limone","tipo":"bevanda","prezzo":1.1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"1bG6uTJ7MqnqIdg9"}
+{"bar":"Belluzzi","nome":"Focaccia Crudo","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"3LIWfjw93lGmdnsy"}
+{"bar":"Belluzzi","nome":"Rotolo Salsiccia","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"6FIl7rVGHDzdy5X9"}
+{"bar":"Belluzzi","nome":"Focaccia Mortadella","tipo":"cibo","prezzo":1.7,"disponibilita":3,"venduti":0,"giorno":0,"_id":"6FNWgzlylKomKda9"}
+{"bar":"Belluzzi","nome":"Toast","tipo":"cibo","prezzo":1.1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"7LCweQZO3fLCUPv5"}
+{"bar":"Belluzzi","nome":"Panino Cotoletta","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"Bn8nwxXejX4MfVv2"}
+{"bar":"Belluzzi","nome":"Acqua Frizzante 0,5l","tipo":"bevanda","prezzo":0.45,"disponibilita":3,"venduti":0,"giorno":0,"_id":"DqqwuXf2cezBViwH"}
+{"bar":"Belluzzi","nome":"Tostone Cotto e Formaggio","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"FwNfI4ngQ0RnzBRO"}
+{"bar":"Belluzzi","nome":"Chinotto","tipo":"bevanda","prezzo":1.1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"HexX0QIA3Sf7nmt6"}
+{"bar":"Belluzzi","nome":"Focaccia Salame","tipo":"cibo","prezzo":1.7,"disponibilita":3,"venduti":0,"giorno":0,"_id":"KwZzQUB0PkYyDkgv"}
+{"bar":"Belluzzi","nome":"Pizza Marherita","tipo":"cibo","prezzo":1.3,"disponibilita":3,"venduti":0,"giorno":0,"_id":"OqlSXZ4fEOWdS3PO"}
+{"bar":"Belluzzi","nome":"Panino Salame","tipo":"cibo","prezzo":1.4,"disponibilita":3,"venduti":0,"giorno":0,"_id":"RiIiJcNc4N24SzZG"}
+{"bar":"Belluzzi","nome":"Panino Cotto","tipo":"cibo","prezzo":1.4,"disponibilita":3,"venduti":0,"giorno":0,"_id":"RkQ6CeUhl6He78NK"}
+{"bar":"Belluzzi","nome":"Focaccia Crudo e Formaggio","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"S3WB6vLtVT9XDdbT"}
+{"bar":"Belluzzi","nome":"Coca Cola 0,5l","tipo":"bevanda","prezzo":1.8,"disponibilita":3,"venduti":0,"giorno":0,"_id":"YzibPQ9e1Q3YoGps"}
+{"bar":"Belluzzi","nome":"Acqua Naturale 0,5l","tipo":"bevanda","prezzo":0.45,"disponibilita":3,"venduti":0,"giorno":0,"_id":"aJejVrFvvCo1qh57"}
+{"bar":"Belluzzi","nome":"Coca Cola","tipo":"bevanda","prezzo":1.1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"aLF303fACYylXmq9"}
+{"bar":"Belluzzi","nome":"Ciabatta Crudo e Mozzarella","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"abCmFZkgxlVMjYh2"}
+{"bar":"Belluzzi","nome":"Focaccia","tipo":"cibo","prezzo":1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"alnSWFyu6uxfvEnK"}
+{"bar":"Belluzzi","nome":"Rotolo Wurstel","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"kMPKZZt480qo04Zl"}
+{"bar":"Belluzzi","nome":"Focaccia Salame e Formaggio","tipo":"cibo","prezzo":2,"disponibilita":3,"venduti":0,"giorno":0,"_id":"lDDEGDDS9qwj1EH9"}
+{"bar":"Belluzzi","nome":"Panino Crudo","tipo":"cibo","prezzo":1.6,"disponibilita":3,"venduti":0,"giorno":0,"_id":"lftzVf3M1S0mhu0g"}
+{"bar":"Belluzzi","nome":"Focaccia Cotto","tipo":"cibo","prezzo":1.7,"disponibilita":3,"venduti":0,"giorno":0,"_id":"qm2n9hPWZlf4HGmN"}
+{"bar":"Belluzzi","nome":"Aranciata","tipo":"bevanda","prezzo":1.1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"sLsNrwCC1TSCYzCD"}
+{"bar":"Belluzzi","nome":"Panino Mortadella","tipo":"cibo","prezzo":1.4,"disponibilita":3,"venduti":0,"giorno":0,"_id":"u8a1yb9slElYIjDw"}
+{"bar":"Belluzzi","nome":"Lemon Soda","tipo":"bevanda","prezzo":1.1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"uKAggFKAGppYzYOz"}
+{"bar":"Belluzzi","nome":"Tè Pesca","tipo":"bevanda","prezzo":1.1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"wxYtfXCFOWUAY29n"}

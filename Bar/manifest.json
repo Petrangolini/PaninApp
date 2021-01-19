@@ -3,7 +3,7 @@
 	"name": "Panin App",
 	"lang": "it",
 	"description": "App per la prenotazione dei Panini al Bar",
-	"start_url": "/Bar/index.html",
+	"start_url": "/index.html",
 	"background_color": "#e6a323",
 	"theme_color": "#e7b400",
 	"dir": "ltr",

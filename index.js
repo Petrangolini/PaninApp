@@ -254,10 +254,14 @@ app.post('/completaordine',(req,res)=>{
 })
 
 
+app.get("/wakeup", function(request, response) {
+  //console.log("i'm awake");
+  response.send("i'm awake")
+});
 
 
 
-
+//const port=process.env.PORT;
 const port=5000;
 app.listen(port,()=> console.log("Server started on port "+port));
 
