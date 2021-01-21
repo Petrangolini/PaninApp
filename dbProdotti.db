@@ -110,3 +110,8 @@
 {"bar":"Belluzzi","nome":"Panino Mortadella","tipo":"cibo","prezzo":1.4,"disponibilita":3,"venduti":0,"giorno":0,"_id":"u8a1yb9slElYIjDw"}
 {"bar":"Belluzzi","nome":"Lemon Soda","tipo":"bevanda","prezzo":1.1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"uKAggFKAGppYzYOz"}
 {"bar":"Belluzzi","nome":"Tè Pesca","tipo":"bevanda","prezzo":1.1,"disponibilita":3,"venduti":0,"giorno":0,"_id":"wxYtfXCFOWUAY29n"}
+{"bar":"Belluzzi","nome":"Focaccia Cotto","tipo":"cibo","prezzo":1.7,"disponibilita":3,"venduti":2,"giorno":0,"_id":"qm2n9hPWZlf4HGmN"}
+{"bar":"Belluzzi","nome":"Focaccia","tipo":"cibo","prezzo":1,"disponibilita":3,"venduti":3,"giorno":0,"_id":"alnSWFyu6uxfvEnK"}
+{"bar":"Da Vinci","nome":"Ciabatta Crudo e Mozzarella","tipo":"cibo","prezzo":2,"disponibilita":"10","venduti":2,"giorno":1610361655536,"_id":"S0DP4YtrSR67T9RE"}
+{"bar":"Da Vinci","nome":"Focaccia","tipo":"cibo","prezzo":1,"disponibilita":"3","venduti":2,"giorno":1610361655536,"_id":"3uqiLCg0ScPR3DHs"}
+{"bar":"Da Vinci","nome":"Focaccia Cotto","tipo":"cibo","prezzo":1.7,"disponibilita":"10","venduti":2,"giorno":1610361655536,"_id":"0TAgU7MNTgCx0S4I"}

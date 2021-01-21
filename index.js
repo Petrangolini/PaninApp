@@ -260,6 +260,15 @@ app.get("/wakeup", function(request, response) {
   response.send("i'm awake")
 });
 
+app.post('/imieiordini',function(request, response) {
+            const utente=request.body.utente;
+            
+            db.ordini.find({ "utente.google.id": utente.google.id }, function (err, docs) {
+                            
+                            response.status(201).json(docs);
+                });
+});
+
 
 
 //const port=process.env.PORT;

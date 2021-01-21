@@ -39,12 +39,17 @@
     <nav class="orange">
         <div class="nav-wrapper">
           <a href="#" class="brand-logo">PaninApp</a>
+          <ul class="right" id="listaordini" style="display: none;">
+            <li><a class="waves-effect waves-light modal-trigger" href="#modalfooter" onclick="ordinipassati()"><i class="material-icons">playlist_add_check</i></a></li>
+
+          </ul>
+    
           
         </div>
       </nav>
 
     
-<div class="container centro orange-text" id="loginContext">
+<div class="container centro orange-text" id="loginContext" >
        <h3 style="margin-bottom: 10%;">Sign In</h3>
        <p class="center" style="margin-bottom: 10%;">Loggati con un account @studenti.ittsrimini.edu.it</p>
         <div class="g-signin2" data-onsuccess="onSignIn"></div>
@@ -150,6 +155,8 @@
                             console.log(data)
                             //ok sparisce
                             loginContext.style.display = 'none';
+                            contextordini.style.display="block";
+                            listaordini.style.display="block";
                             //
                             settavalorilogin();
                             dammiProdotti("Da Vinci");
@@ -182,7 +189,7 @@
      
       
 
-     <div class="container">
+     <div class="container" id="contextordini" style="display: none;">
         <div class="col s12 m8 offset-m2 l6 offset-l3" style="margin-top:5px;">
             <div class="card-panel grey lighten-5 z-depth-1" style="padding:10px;">
               <div class="row valign-wrapper" style="margin-bottom: 0px;">
@@ -250,6 +257,20 @@
         <div class="modal-footer">
 
       <a href="#!" class=" waves-effect waves-green btn-flat" onclick="confermaOrdine()">Conferma</a>
+    </div>
+  </div>
+    <!--Modal footer-->
+
+  <div id="modalfooter" class="modal bottom-sheet" style="max-height:85% ;">
+    <div class="modal-content">
+      <h4>I Tuoi Ordini</h4>
+      <div id="ulordinipassati">            
+       
+      </div>
+
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Chiudi</a>
     </div>
   </div>
 
@@ -427,6 +448,76 @@
                                 
                             });
             }
+        }
+
+        function ordinipassati(){
+          fetch('/imieiordini',{
+                method:'POST',
+                body:JSON.stringify({utente:dati }),
+                headers: {
+                        'Content-Type': 'application/json'
+                    }}).then(data=>data.json())
+                            .then(jsondata=>{
+                                console.log(jsondata);
+                                displayordinipassati(jsondata);
+
+                                
+                            });
+        }
+
+        function displayordinipassati(tuttid){
+          tuttid.sort((a,b)=>a.timestamp-b.timestamp);
+
+          ulordinipassati.innerHTML="";
+
+          for (let el of tuttid){
+            let ultag="<ul class='collection' style='height:auto;'>";
+              ultag+=`
+                    <li class="collection-item orange white-text">
+                      <span class="card-title">${el.bar}</span>
+
+                         </li>`;
+            let tot=0;
+            let colore=el.stato=="nonevaso"?"":"lime lighten-2";
+
+              for (let ord of el.ordine){
+                ultag+=`
+                    <li class="collection-item ${colore}">
+                          ${ord.nome}
+                          ${ord.prezzo} X ${ord.quantita} = <span class="right">${(ord.prezzo*ord.quantita).toFixed(2)}</span>
+                    </li>`;
+                    tot+=Number(ord.prezzo*ord.quantita);
+              }
+            ultag+=`
+                    <li class="collection-item ${colore}">
+                      Totale <span class="right">${tot}</span>
+
+                    </li>`;
+
+            ultag+="</ul>";
+            
+
+
+            let taghtml=`  
+            <div class="row">
+                <div class="col s12 m6">
+                  <div class="card blue-grey darken-1">
+                    <div class="card-content white-text">
+                      <span class="card-title">${el.bar}</span>
+                      ${ultag}
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>`;
+
+              //ulordinipassati.insertAdjacentHTML('beforeend', taghtml);
+
+              ulordinipassati.insertAdjacentHTML('beforeend', ultag);
+
+
+          }
+
         }
       </script>
 </body>
